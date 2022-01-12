@@ -33,6 +33,7 @@ Partial Class Marks
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Total = New System.Windows.Forms.TextBox()
         Me.Average = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -85,7 +86,7 @@ Partial Class Marks
         '
         'Command
         '
-        Me.Command.Location = New System.Drawing.Point(281, 294)
+        Me.Command.Location = New System.Drawing.Point(252, 294)
         Me.Command.Name = "Command"
         Me.Command.Size = New System.Drawing.Size(112, 34)
         Me.Command.TabIndex = 6
@@ -124,11 +125,21 @@ Partial Class Marks
         Me.Average.Size = New System.Drawing.Size(110, 31)
         Me.Average.TabIndex = 10
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(485, 294)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(112, 34)
+        Me.Button1.TabIndex = 11
+        Me.Button1.Text = "Home"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Marks
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Average)
         Me.Controls.Add(Me.Total)
         Me.Controls.Add(Me.Label5)
@@ -158,4 +169,5 @@ Partial Class Marks
     Friend WithEvents Label5 As Label
     Friend WithEvents Total As TextBox
     Friend WithEvents Average As TextBox
+    Friend WithEvents Button1 As Button
 End Class

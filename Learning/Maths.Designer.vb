@@ -111,7 +111,7 @@ Partial Class Maths
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(112, 34)
         Me.ExitButton.TabIndex = 8
-        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.Text = "Home"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'AddButton
